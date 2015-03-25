@@ -1,0 +1,139 @@
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+}
+@media (min-width: 992px) {
+	body.boxed #main-wrapper {
+		max-width:1030px
+	}
+	#toggle-icon{
+		display:none;
+	}
+	.pull-right.navbar .nav > li > a{
+			padding:15px 11px;
+			
+		}
+	.fullwidthbanner {
+		height:500px !important;
+	}
+}
+@media (min-width: 1200px) {
+	body.boxed #main-wrapper {
+		max-width:1130px
+	}
+	#toggle-icon{
+		display:none;
+	}
+	.fullwidthbanner {
+		height:500px !important;
+	}
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	body.boxed #main-wrapper {
+		max-width:810px;
+	}
+	#toggle-icon{
+		display:none;
+	}
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+	.container {
+		width: 300px;
+		margin:0 auto;
+	}
+	.ls-wrapper .ls-select-box select{
+		margin:25px 0 50px 0;
+	}
+	.profile-name h2{
+		font-size:40px;
+	}
+	.profile-name h2 span{
+		font-size:15px;
+	}
+	.porfile-img{
+		padding:10px 0 40px;
+	}
+	.social_icons ul li a{
+		height:30px;
+		width:30px;
+		line-height:30px;
+		font-size:14px;
+	}
+	/*#cotent-wrap{
+		margin-top:0;
+	}*/
+	#profile-toggle{
+		display:none;
+	}
+	#toggle-icon {
+		border-bottom: 1px solid #EBEBEB;
+		padding: 15px;
+		text-align: center;
+	}
+	#toggle-icon span:hover{
+		background:#FFF;
+	}
+	#toggle-icon span {
+		cursor: pointer;
+		border-radius:3px;
+		background:#E14A3A;
+		display:inline-block;
+		width:40px;
+		height:30px;
+		position:relative;
+	}
+	#toggle-icon span:before{
+		content:"\f039";
+		color:#FFF;
+		font-family:'FontAwesome';
+		position:absolute;
+		top:6px;
+		left:13px;
+	}
+	#toggle-icon span:hover:before{
+		color:#E14A3A;
+	}
+	
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+	.container{
+		width:420px;
+	}	
+	body.boxed #main-wrapper {
+		max-width:460px;
+	}
+	.styleswitcher{
+		display:none;
+	}
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+	.container{
+		width:300px;
+	}
+	body.boxed #main-wrapper {
+		max-width:340px;
+	}
+	.styleswitcher{
+		display:none;
+	}
+}

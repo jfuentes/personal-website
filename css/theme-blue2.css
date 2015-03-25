@@ -1,0 +1,13 @@
+a, h1, .twitter-bird, .resume-btn i{color:#C69C6D;}
+
+#top-bar, #nav-bar, .contact-info li span, .my-service span, .skillbar-bar, .social_icons ul li a, #back-top a:hover, .date-wrap, .resume-btn a, .resume-btn a:hover i{background-color:#C69C6D;}
+
+.grid svg path {
+    fill: #C69C6D;
+}
+.twitter-bird{
+	border:1px solid #C69C6D;
+}
+.date-wrap:before{
+	border-top:8px solid #C69C6D
+}
